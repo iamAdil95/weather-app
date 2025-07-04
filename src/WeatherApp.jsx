@@ -23,8 +23,8 @@ export default function WeatherApp() {
     return (
         <div style={{ textAlign: "center" }}>
             <h2 style={{ color: "#4169e1", fontWeight: "bolder" }}>  SkyCast  </h2>
-            <SearchBox updateInfo ={updateInfo} />
-            <InfoBox info={weatherInfo } />
+            <SearchBox updateInfo={updateInfo} />
+            <InfoBox info={weatherInfo} />
         </div>
     )
 }

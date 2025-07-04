@@ -13,7 +13,7 @@ export default function InfoBox({ info }) {
     return (
         <div className="InfoBox">
             <h3>
-                <br /> 
+                <br />
                 <div className="cardStyle">
                     <Card sx={{ maxWidth: 345 }}>
                         <CardMedia
