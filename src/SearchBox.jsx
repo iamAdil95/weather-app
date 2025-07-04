@@ -55,7 +55,7 @@ export default function SearchBox({ updateInfo }) {
             console.log(city);
             setCity("");
             setCountryCode("");
-            let newInfo = await getWeatherInfo(city, countryCode);
+            let newInfo = await getWeatherInfo();
             updateInfo(newInfo);
         } catch (err) {
             setError(true);
@@ -87,7 +87,7 @@ export default function SearchBox({ updateInfo }) {
                     Search
                 </Button>
                 {error && (
-                    <Alert  variant="outlined" severity="error" sx={{ mt: 2 }}>
+                    <Alert variant="outlined" severity="error" sx={{ mt: 2 }}>
                         Search a Major City!
                     </Alert>
                 )}
