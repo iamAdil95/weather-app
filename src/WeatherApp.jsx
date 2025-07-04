@@ -11,14 +11,15 @@ export default function WeatherApp() {
         pressure: 996,
         speed: 3.46,
         temp: 32.66,
-        tempMax: 32.66,
-        tempMin: 32.66,
+        tempMax: 42.66,
+        tempMin: 22.66,
         weather: "Rain",
     });
 
     let updateInfo = (newInfo) => {
         setWeatherInfo(newInfo);
     }
+
 
     return (
         <div style={{ textAlign: "center" }}>

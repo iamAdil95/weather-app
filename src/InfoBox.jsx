@@ -32,10 +32,10 @@ export default function InfoBox({ info }) {
                                 {/* //icons  */}
                             </Typography>
                             <Typography variant="body2" sx={{ color: 'text.secondary' }}>
-                                <p>Temperature = {info.temp}&deg;C </p>
+                                <p>Temperature = {info.temp}&deg;C</p>
                                 <p>Humidity = {info.humidity}&#37;</p>
-                                <p>Max Heat = {info.tempMax}&deg;C  </p>
-                                <p>Min Heat = {info.tempMin}&deg;C  </p>
+                                <p>Max Heat = {info.tempMax}&deg;C</p>
+                                <p>Min Heat = {info.tempMin}&deg;C</p>
                                 <p> <i>The Real Feel is</i> {info.feelsLike}&deg;C <i>with Wind Speed of</i> {info.speed} kmph</p>
                             </Typography>
                         </CardContent>
